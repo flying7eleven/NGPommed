@@ -31,10 +31,10 @@
 
 #include <errno.h>
 
-#include "../pommed.h"
-#include "../evloop.h"
-#include "../conffile.h"
-#include "../kbd_backlight.h"
+#include "pommed.h"
+#include "evloop.h"
+#include "conffile.h"
+#include "kbd_backlight.h"
 
 struct _kbd_bck_info kbd_bck_info;
 
@@ -197,7 +197,7 @@ void kbd_backlight_step( int dir ) {
 }
 
 /* Include automatic backlight routines */
-#include "../kbd_auto.c"
+#include "kbd_auto.c"
 
 void kbd_backlight_init( void ) {
 	if( kbd_cfg.auto_on )

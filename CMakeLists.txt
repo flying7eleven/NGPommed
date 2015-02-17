@@ -41,7 +41,7 @@ set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/conffile.c )
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/evdev.c )
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/evloop.c )
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/gma950_backlight.c )
-set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/kbd_auto.c )
+#set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/kbd_auto.c ) # will be included with a include statement in a source file
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/kbd_backlight.c )
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/nv8600mgt_backlight.c )
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/pommed.c )

@@ -39,9 +39,9 @@
 
 #include <pci/pci.h>
 
-#include "../pommed.h"
-#include "../conffile.h"
-#include "../lcd_backlight.h"
+#include "pommed.h"
+#include "conffile.h"
+#include "lcd_backlight.h"
 
 struct _lcd_bck_info lcd_bck_info;
 
