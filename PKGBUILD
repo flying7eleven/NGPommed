@@ -8,14 +8,14 @@
 
 pkgname=pommed-ng
 pkgver=1.0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Handles the hotkeys of Apple MacBook (Pro) laptops"
 arch=('i686' 'x86_64')
 url="https://github.com/thuetz/NGPommed"
 license=('GPL2')
 makedepends=('pkgconfig')
-depends=('confuse' 'audiofile' 'pciutils' 'dbus-glib') # alsa-lib reference is fullfilled by audiofile
-conflicts=('pommed','pommed-light', 'pommed-git', 'pommed-jalaziz', 'gpomme')
+depends=('confuse' 'audiofile' 'pciutils')
+conflicts=('pommed' 'pommed-light' 'pommed-git' 'pommed-jalaziz' 'gpomme')
 optdepends=('eject: disc ejection support')
 source=( "https://github.com/thuetz/NGPommed/archive/v${pkgver}.tar.gz" )
 dfname="NGPommed-${pkgver}"
