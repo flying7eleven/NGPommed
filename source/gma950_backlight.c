@@ -62,9 +62,9 @@
 
 #include <pci/pci.h>
 
-#include "../pommed.h"
-#include "../conffile.h"
-#include "../lcd_backlight.h"
+#include "pommed.h"
+#include "conffile.h"
+#include "lcd_backlight.h"
 
 static unsigned int GMA950_BACKLIGHT_MAX;
 

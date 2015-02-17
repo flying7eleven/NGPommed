@@ -22,8 +22,8 @@
 #include <string.h>
 #include <errno.h>
 
-#include "../pommed.h"
-#include "../power.h"
+#include "pommed.h"
+#include "power.h"
 
 #define PROC_ACPI_AC_STATE "/proc/acpi/ac_adapter/ADP1/state"
 #define PROC_ACPI_AC_ONLINE "on-line\n"
