@@ -1,4 +1,4 @@
-# Maintainer: Tim Hütz <tim@huetz.biz>
+# Maintainer: Tim Huetz <tim@huetz.biz>
 
 # Forked from pommed. Previous header:
 # Maintainer: Corrado Primier <ilbardo gmail com>
