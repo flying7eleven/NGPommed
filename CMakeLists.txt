@@ -21,6 +21,18 @@ pkg_search_module( CONFUSE REQUIRED libconfuse )
 include_directories( SYSTEM ${CONFUSE_INCLUDE_DIRS} )
 
 #
+pkg_search_module( PCI REQUIRED libpci )
+include_directories( SYSTEM ${PCI_INCLUDE_DIRS} )
+
+#
+pkg_search_module( ALSA REQUIRED alsa )
+include_directories( SYSTEM ${ALSA_INCLUDE_DIRS} )
+
+#
+pkg_search_module( AUDIOFILE REQUIRED audiofile )
+include_directories( SYSTEM ${AUDIOFILE_INCLUDE_DIRS} )
+
+#
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/audio.c )
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/beep.c )
 set( POMMED_SOURCE_FILES ${POMMED_SOURCE_FILES} source/cd_eject.c )
@@ -47,5 +59,5 @@ set( POMMED_HEADER_FILES ${POMMED_HEADER_FILES} source/video.h )
 
 #
 add_executable( pommed ${POMMED_SOURCE_FILES} ${POMMED_HEADER_FILES} )
-target_link_libraries( pommed ${DBUS_LIBRARIES} ${CONFUSE_LIBRARIES} )
+target_link_libraries( pommed ${DBUS_LIBRARIES} ${PCI_LIBRARIES} ${CONFUSE_LIBRARIES} ${ALSA_LIBRARIES} ${AUDIOFILE_LIBRARIES} )
 install( TARGETS pommed RUNTIME DESTINATION bin )
