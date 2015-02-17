@@ -7,13 +7,13 @@
 # Contributor: jordi Cerdan (jcerdan) <jcerdan@tecob.com>
 
 pkgname=pommed-ng
-pkgver=1.0.1
-pkgrel=2
+pkgver=1.0.2
+pkgrel=1
 pkgdesc="Handles the hotkeys of Apple MacBook (Pro) laptops"
 arch=('i686' 'x86_64')
 url="https://github.com/thuetz/NGPommed"
 license=('GPL2')
-makedepends=('pkgconfig')
+makedepends=('pkgconfig' 'cmake')
 depends=('confuse' 'audiofile' 'pciutils')
 conflicts=('pommed' 'pommed-light' 'pommed-git' 'pommed-jalaziz' 'gpomme')
 optdepends=('eject: disc ejection support')
