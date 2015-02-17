@@ -5,7 +5,7 @@
 #ifndef __POMMED_H__
 #define __POMMED_H__
 
-#define M_VERSION "1.45lw"
+#define M_VERSION "1.0.1"
 
 extern int debug;
 extern int console;

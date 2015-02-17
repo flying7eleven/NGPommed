@@ -7,7 +7,7 @@
 # Contributor: jordi Cerdan (jcerdan) <jcerdan@tecob.com>
 
 pkgname=pommed-ng
-pkgver=1.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Handles the hotkeys of Apple MacBook (Pro) laptops"
 arch=('i686' 'x86_64')
