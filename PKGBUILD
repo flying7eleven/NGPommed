@@ -19,7 +19,7 @@ conflicts=('pommed','pommed-light', 'pommed-git', 'pommed-jalaziz', 'gpomme')
 optdepends=('eject: disc ejection support')
 source=( "https://github.com/thuetz/NGPommed/archive/v${pkgver}.tar.gz" 'pommed.service' )
 dfname="NGPommed-${pkgver}"
-sha256sums=('272c9a86c7a5f4c9d66053b7b9bfcde988c9b0b479ef5629f646164c85f0f6ed'
+sha256sums=('34d47ff34e099345c4b5f99fc4390ed741bacada11e940f18a261b4f157fb401'
             'd620b07c74e8acd243278ef768b2bd79109e0a56e890dcec17db72777d7a21e1')
 
 build() {
