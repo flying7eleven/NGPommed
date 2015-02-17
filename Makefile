@@ -5,10 +5,10 @@ OFLIB ?=
 all: pommed
 
 pommed:
-	$(MAKE) -C pommed OFLIB=$(OFLIB)
+	$(MAKE) -C source OFLIB=$(OFLIB)
 
 clean:
-	$(MAKE) -C pommed clean
+	$(MAKE) -C source clean
 	rm -f *~
 
 .PHONY: pommed
